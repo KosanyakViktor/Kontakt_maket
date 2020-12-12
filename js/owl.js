@@ -17,6 +17,6 @@ $('.nonloop').owlCarousel({
     responsive:{
         600:{
             items:4
-        }
+      } 
     }
 });
