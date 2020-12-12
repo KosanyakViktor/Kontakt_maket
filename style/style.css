@@ -4,7 +4,9 @@
   padding: 0;
   margin: 0;
 }
-
+*:focus {
+  outline: none;
+}
 .wrapper {
   width: 1920px;
   font-family: "Lato", sans-serif;
@@ -294,6 +296,9 @@ main {
 .slider {
   width: 100%;
   margin: 0 auto;
+}
+.slider_slider {
+  margin-top: 57px;
 }
 .slider_heading h2 {
   text-align: center;

@@ -1,22 +1,26 @@
-$('.loop').owlCarousel({
-    center: true,
-    items:2,
-    loop:true,
-    margin:10,
-    responsive:{
-        600:{
-            items:4
+$('.center').slick({
+    centerMode: true,
+    arrows: false,
+    centerPadding: '80px',
+    slidesToShow: 5,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
         }
-    }
-});
-$('.nonloop').owlCarousel({
-    center: true,
-    items:2,
-    loop:false,
-    margin:10,
-    responsive:{
-        600:{
-            items:4
-      } 
-    }
-});
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
