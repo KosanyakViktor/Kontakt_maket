@@ -1,6 +1,7 @@
 /* Slider */
 .slick-slider
 {
+    overflow:hidden;
     position: relative;
 
     display: block;
