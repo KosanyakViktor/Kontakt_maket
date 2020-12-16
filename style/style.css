@@ -885,6 +885,7 @@ main {
   overflow: hidden;
 }
 .mobile_slider {
+  overflow: hidden;
   display: none;
 }
  .offer_img {
@@ -1844,7 +1845,7 @@ i {
 @media(max-width:509px) {
   .contact__absolute_desktop {
     width: 411px;
-    left: 40px;
+    left: 49px;
   }
   .contact__text_one h2 {
     width: 60%;
@@ -1874,43 +1875,43 @@ i {
 
 @media(max-width:499px) {
   .contact__absolute_desktop {
-    left: 35px;
+    left: 42px;
   }
 }
 @media(max-width:489px) {
   .contact__absolute_desktop {
-    left: 30px;
+    left: 37px;
   }
 }
 @media(max-width:479px) {
   .contact__absolute_desktop {
-    left: 25px;
+    left: 32px;
     top: 45%;
   }
 }
 @media(max-width:469px) {
   .contact__absolute_desktop {
-    left: 20px;
+    left: 27px;
   }
 }
 @media(max-width:459px) {
   .contact__absolute_desktop {
-    left: 15px;
+    left: 22px;
   }
 }
 @media(max-width:449px) {
   .contact__absolute_desktop {
-    left: 10px;
+    left: 17px;
   }
 }
 @media(max-width:439px) {
   .contact__absolute_desktop {
-    left: 5px;
+    left: 14px;
   }
 }
 @media(max-width:429px) {
   .contact__absolute_desktop {
-    left: 0px;
+    left: 9px;
   }
 }
 @media(max-width:425px) {
@@ -1954,17 +1955,27 @@ iframe {
 }
 @media(max-width:415px) {
   .contact__absolute_desktop {
-    left: 16px;
+    left: 31px;
   }
 }
 @media(max-width:405px) {
   .contact__absolute_desktop {
-    left: 10px;
+    left: 26px;
   }
 }
 @media(max-width:395px) {
   .contact__absolute_desktop {
-    left: 5px;
+    left: 21px;
+  }
+}
+@media(max-width:385px) {
+  .contact__absolute_desktop {
+    left: 16px;
+  }
+}
+@media(max-width:375px) {
+  .contact__absolute_desktop {
+    left: 9px;
   }
 }
 @media(max-width:479px) {
@@ -2349,9 +2360,45 @@ iframe {
   .car_wash {
     margin-bottom: 55px;
   }
+  .paragraphs__two_name p {
+    width: 100%;
+  }
 }
-@media(max-width:525px) {
-   .field_block {
-     margin-bottom: 52px;
-   }
+@media(max-width:630px) {
+  .single-item {
+    display: block;
+    overflow: hidden;
+  }
+  .center_two {
+    display: none;
+  }
+    .field_block {
+    margin-bottom: 48px;
+  }
+  .car_wash {
+    margin-bottom: 73px;
+  }
+  .card_text h3 {
+    font-size: 20px;
+  } 
+}
+@media(max-width:540px) {
+  .car_wash {
+    margin-bottom: 50px;
+  }
+}
+@media(max-width:524px) {
+  .car_wash {
+    margin-bottom: 25px;
+  }
+}
+@media(max-width:519px) {
+  .field_block {
+    margin-bottom: 30px;
+  }
+}
+@media(max-width:492px) {
+  .field_block {
+    margin-bottom: 25px;
+  }
 }

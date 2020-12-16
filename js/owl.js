@@ -283,137 +283,22 @@ $(".center_two").slick({
         slidesToShow: 1,
       },
     },
-    ,
     {
-      breakpoint: 641,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "100px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 629,
+      breakpoint: 634,
       settings: {
         arrows: false,
         centerMode: false,
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 619,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "30px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 597,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "100px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 555,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "100px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 555,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "75px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 509,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "55px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 512,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      settings: {
-        infinite: true,
-        arrows: false,
-        centerMode: true,
-        centerPadding: "35px",
-      },
-    },
-    {
-      breakpoint: 495,
-      settings: {
-        arrows: false,
-        centerMode: false,
-        centerPadding: "-10px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
         centerPadding: "70px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 414,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "60px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 390,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "50px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 372,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "38px",
-        slidesToShow: 1,
-      },
-    },
-    {
-      breakpoint: 372,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: "30px",
         slidesToShow: 1,
       },
     },
   ],
 });
 
+$(".single-item").slick({
+  dots: false,
+  arrows: false,
+});
 //Menu-footer acordeon
 
 var accordion = (function (element) {
